@@ -1,2 +1,2 @@
 Licencia1,MAC1,MAC2
-Licencia2,MAC1
+tu_licencia,MAC1
