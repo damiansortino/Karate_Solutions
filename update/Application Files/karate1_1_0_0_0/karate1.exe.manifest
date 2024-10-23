@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="karate1.exe" version="1.0.0.0" publicKeyToken="94ffdef4d059dd7e" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="karate1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="karate1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="karate1.exe" size="2222056">
+      <assemblyIdentity name="karate1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>6ge+l7t9lyjhcwUp30Jk2o9VWOJGCR8gXxqbkIKaNUc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icon.ico" size="259838">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZqcTfk3fYy6VlQ8g6MFgJuI445LbZ7zA6+itouXn/vM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Img_min\dojo.png" size="395335">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>b0Uk1wx/wYQwViXw+KFfDhbCGVqSvKjen7Wqs8858jo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Img_min\FNK.png" size="1031150">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uSPbq899sEuVYrcx04ftDm6gPd2qUfMCkJYVkgPh2r0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Img_min\karateLite_SB.png" size="12028">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BQYpJ4vfEsOdI0jtNbWtPVJK+WxzlL0LdJPTex2jG0M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Img_min\playpause.jpg" size="10842">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GeGb3meyScAIjZU0DSCzZzR73KxUxbCEmXSKLQWG/pc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="karate1.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\advertencia.wav" size="1059090">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FBrz9VNdlJHjBI+qT7EqF6fEi58q9pZwCtB/HwjVocA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Sound\campana.wav" size="1059090">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9C9b4Cu18waofWGQ2gCdh6I50NI6KLGzSLIBXoVLNus=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-336L9G0\DAMIAN" issuerKeyHash="7a28955cb4950775febea29b1fa50319628b8471" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ERlFmBSHsamxRYd2vOfcU9aw7OnTkD9D6+m1fd6ZH74=</DigestValue></Reference></SignedInfo><SignatureValue>ri3z4H5DM0mLWJMIYZDkFY4HXHm5MGYhyeO/OJ4q62XatWzH/oyBe8+lyfAldNM4WFmoMEVHCtwnW2iT163seWiE39C3R7nEHFGhUvxFYLY7O+dTQbGg7bh7QCmOc9uUDRmeagC7gqve9S8l7AmnQWi7a3J0qA5DZv8kqkjowIg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uDwfbUfpv6fUxyxqIAre3fQwVveWPcXy/pHVirJbagZL2N4AbUuR2yNDrxH1wmN26GLfSdSPHKuVx9j1mcfInFgEBLFGe4CbhKF2N+KS6TssPoLlLF6p6DYmNX0FvE+Pe6QANkSOri4Jw/jf2hK/bYHJTaJ6yGO3gCowdJ1KfyU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="be1f99de7db5e9eb433f90d3e9ecb0d653dce7bc768745b1a9b1871498451911" Description="" Url=""><as:assemblyIdentity name="karate1.exe" version="1.0.0.0" publicKeyToken="94ffdef4d059dd7e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-336L9G0\DAMIAN</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5vYwDhMkjaJ4ESC3F6zo6qWePqunMfoD8wvJtXFkwdg=</DigestValue></Reference></SignedInfo><SignatureValue>sk0ypWhZdcbaCFWL2854TMz/DALZabTBg6vOCTTUIjuVMwXhXrVFJJzq9Cm/gprtuaCGKHmvbQDOcnp8l9LqvEGN3cyvNowxBNiJj6SU9dvFMTsEiyPTzgv6SwNzThyVYEltvR0BgQT7SVzjQdvnjNpGxiqM7xTLJVur06B56/8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uDwfbUfpv6fUxyxqIAre3fQwVveWPcXy/pHVirJbagZL2N4AbUuR2yNDrxH1wmN26GLfSdSPHKuVx9j1mcfInFgEBLFGe4CbhKF2N+KS6TssPoLlLF6p6DYmNX0FvE+Pe6QANkSOri4Jw/jf2hK/bYHJTaJ6yGO3gCowdJ1KfyU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQNnPmz5YMiZ1G7USnyJEOJTANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtADMAMwA2AEwAOQBHADAAXABEAEEATQBJAEEATjAeFw0yNDEwMDUyMTU3MzJaFw0yNTEwMDYwMzU3MzJaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0AMwAzADYATAA5AEcAMABcAEQAQQBNAEkAQQBOMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC4PB9tR+m/p9THLGogCt7d9DBW95Y9xfL+kdWKsltqBkvY3gBtS5HbI0OvEfXCY3boYt9J1I8cq5XH2PWZx8icWAQEsUZ7gJuEoXY34pLpOyw+guUsXqnoNiY1fQW8T497pAA2RI6uLgnD+N/aEr9tgclNonrIY7eAKjB0nUp/JQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAEahA26S/ZK3Rnc0Odm8O1vyZpyI0spfkiwWcq9GgEBNWQiDQpnK67AXQSGQBW7cQG0JCjw5W6uPkeQUoHgl8x5t5isE6k636d/B+ja6EahEeZtQJR1bWNND7nmVBC9Ahp2KjL3E0dmHCYd5Qw8l7uUtecHpO2jXqAKeEifbXQ+E</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
