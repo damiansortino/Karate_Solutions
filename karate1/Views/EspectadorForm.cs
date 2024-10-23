@@ -1,12 +1,4 @@
 ﻿using karate1.Model;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace karate1.Views
@@ -40,27 +32,27 @@ namespace karate1.Views
             {
                 if (data.Ganador == "1")
                 {
-                    
+
                     lblnokachi_rojo.Visible = true;
                     lbl_nokachi_blanco.Visible = false;
-                    
+
                 }
                 else
                 {
-                   
+
                     lbl_nokachi_blanco.Visible = true;
                     lblnokachi_rojo.Visible = false;
-                    
+
                 }
             }
             else
             {
                 lblnokachi_rojo.Visible = false;
                 lbl_nokachi_blanco.Visible = false;
-                
+
             }
         }
 
-        
+
     }
 }

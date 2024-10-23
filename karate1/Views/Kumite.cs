@@ -1,7 +1,6 @@
 ﻿using karate1.Model;
 using karate1.Views;
 using System;
-using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
 using System.Media;
 using System.Windows.Forms;
@@ -48,7 +47,7 @@ namespace karate1
             }
             ActualizarEspectadorForm(espectadorForm);
         }
-        
+
 
         private void ActualizarEspectadorForm(EspectadorForm espectadorForm)
         {
@@ -281,7 +280,7 @@ namespace karate1
 
         }
 
-        private  void btn_PlayPause_Click(object sender, EventArgs e)
+        private void btn_PlayPause_Click(object sender, EventArgs e)
         {
             SoundPlayer player = new SoundPlayer(@"Sound\campana.wav");
             player.Play();
@@ -553,7 +552,7 @@ namespace karate1
             combo_Tiempo.SelectedIndex = 4;
         }
 
-        
+
         private void lbl_Contador_TextChanged(object sender, EventArgs e)
         {
             if (lbl_Contador.Text == "0:15")
@@ -614,7 +613,7 @@ namespace karate1
             {
                 MessageBox.Show("No hay una pantalla secundaria conectada.");
             }
-            
+
         }
 
         private void KarateControl_FormClosed(object sender, FormClosedEventArgs e)
@@ -732,7 +731,7 @@ namespace karate1
 
         private void btn_Ganador1_Click(object sender, EventArgs e)
         {
-            ganador = 1; 
+            ganador = 1;
             ActualizarEspectadorForm(espectadorForm);
             timer.Stop();
             HabilitarControl();
@@ -745,7 +744,7 @@ namespace karate1
             ActualizarEspectadorForm(espectadorForm);
             timer.Stop();
             HabilitarControl();
-            MessageBox.Show("El competidor 2, resulta Ganador");   
+            MessageBox.Show("El competidor 2, resulta Ganador");
         }
 
     }

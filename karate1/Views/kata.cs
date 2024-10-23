@@ -55,7 +55,7 @@ namespace karate1.Views
             lbl_MostrarPuntos.Text = "Ingrese los puntajes...";
         }
 
-        
+
 
         private void tb_pts1_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -109,7 +109,7 @@ namespace karate1.Views
             }
         }
 
-        
+
 
         private void tb_pts5_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -253,7 +253,7 @@ namespace karate1.Views
             tb_pts3.Text = "0";
             tb_pts4.Text = "0";
             tb_pts5.Text = "0";
-            
+
         }
 
         private void radioButton_3jueces_CheckedChanged(object sender, EventArgs e)

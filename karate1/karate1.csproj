@@ -84,6 +84,13 @@
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\EspectadorData.cs" />
+    <Compile Include="Model\Seguridad.cs" />
+    <Compile Include="Views\ActivacionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ActivacionForm.Designer.cs">
+      <DependentUpon>ActivacionForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\EspectadorForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +113,9 @@
     </Compile>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ActivacionForm.resx">
+      <DependentUpon>ActivacionForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\EspectadorForm.resx">
       <DependentUpon>EspectadorForm.cs</DependentUpon>
@@ -156,12 +166,22 @@
     <Content Include="icon.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Img_min\background_lic.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Img_min\dojo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Img_min\FNK.png" />
-    <Content Include="Img_min\karateLite_SB.png" />
+    <Content Include="Img_min\FNK.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img_min\karateLite_SB.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Img_min\playpause.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Img_min\whatsappbtn.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Sound\advertencia.wav">

@@ -63,6 +63,16 @@ namespace karate1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap background_lic {
+            get {
+                object obj = ResourceManager.GetObject("background_lic", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap dojo {
             get {
                 object obj = ResourceManager.GetObject("dojo", resourceCulture);
@@ -96,6 +106,26 @@ namespace karate1.Properties {
         internal static System.Drawing.Bitmap playpause {
             get {
                 object obj = ResourceManager.GetObject("playpause", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap whatsappbtn {
+            get {
+                object obj = ResourceManager.GetObject("whatsappbtn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap whatsappbtn1 {
+            get {
+                object obj = ResourceManager.GetObject("whatsappbtn1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
